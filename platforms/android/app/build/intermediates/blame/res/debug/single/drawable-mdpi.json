@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/xiyanghui/work/learn/week/weex-learn/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_scan.png",
+        "source": "/Users/xiyanghui/work/learn/week/weex-learn/platforms/android/app/src/main/res/drawable-mdpi/ic_action_scan.png"
+    },
+    {
+        "merged": "/Users/xiyanghui/work/learn/week/weex-learn/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_refresh.png",
+        "source": "/Users/xiyanghui/work/learn/week/weex-learn/platforms/android/app/src/main/res/drawable-mdpi/ic_action_refresh.png"
+    }
+]
