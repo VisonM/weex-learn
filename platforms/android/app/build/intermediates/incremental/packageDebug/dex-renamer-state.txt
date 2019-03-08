@@ -1,4 +1,4 @@
-#Thu Mar 07 16:24:19 CST 2019
+#Fri Mar 08 15:20:23 CST 2019
 base.0=/Users/xiyanghui/work/learn/week/weex-learn/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/xiyanghui/work/learn/week/weex-learn/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

@@ -1,18 +1,31 @@
 <template>
-    <div>{{name}}}</div>
+    <div class="wrapper">
+        <header-bar></header-bar>
+    </div>
 </template>
 
 <script>
-  export default {
-    name: "profile",
-    data(){
-      return {
-        name:"findings"
-      }
+
+    import HeaderBar from "./../components/header"
+
+    export default {
+        name: "Profile",
+        components: {
+            HeaderBar,
+        },
+        data () {
+            return {
+                name: "Profile",
+            }
+        },
+        mounted () {
+            console.log("friends mounted")
+        },
+        methods: {},
     }
-  }
 </script>
 
 <style scoped>
 
+</style>
 </style>

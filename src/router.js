@@ -1,6 +1,6 @@
 /*global Vue*/
 import Router from "vue-router"
-import HelloWorld from "@/components/HelloWorld"
+
 import Video from "@/page/video"
 import Findings from "@/page/findings"
 import Music from "@/page/music"
@@ -13,7 +13,11 @@ export const router = new Router({
   routes: [
     {
       path: "/",
-      name: "findings",
+      redirect:"Findings"
+    },
+    {
+      path: "/findings",
+      name: "Findings",
       component: Findings,
     },
     {

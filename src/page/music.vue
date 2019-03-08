@@ -1,16 +1,28 @@
 <template>
-    <div>{{name}}}</div>
+    <div class="wrapper">
+        <header-bar></header-bar>
+    </div>
 </template>
 
 <script>
-  export default {
-    name: "music",
-    data(){
-      return {
-        name:"findings"
-      }
+
+    import HeaderBar from "./../components/header"
+
+    export default {
+        name: "Music",
+        components: {
+            HeaderBar,
+        },
+        data () {
+            return {
+                name: "Music",
+            }
+        },
+        mounted () {
+            console.log("friends mounted")
+        },
+        methods: {},
     }
-  }
 </script>
 
 <style scoped>

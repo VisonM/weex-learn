@@ -1,15 +1,27 @@
 <template>
-    <div>{{name}}}</div>
+  <div class="wrapper">
+    <header-bar></header-bar>
+  </div>
 </template>
 
 <script>
+
+  import HeaderBar from "./../components/header"
+
   export default {
-    name: "friends",
-    data(){
+    name: "Friends",
+    components: {
+      HeaderBar,
+    },
+    data () {
       return {
-        name:"findings"
+        name: "Friends",
       }
-    }
+    },
+    mounted () {
+      console.log("friends mounted")
+    },
+    methods: {},
   }
 </script>
 
